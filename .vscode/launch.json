@@ -9,8 +9,8 @@
             "type": "python",
             "request": "launch",
             "program": "${file}",
-            //"console": "integratedTerminal",//同时输出到"调试控制台"和软件内置“终端”，建议在终端输入，在调试控制台查看结果
-            "console": "internalConsole"        //只输出到"调试控制台"，但无法输入数据，只能看到输出
+            "console": "integratedTerminal",//同时输出到"调试控制台"和软件内置“终端”，建议在终端输入，在调试控制台查看结果
+            //"console": "internalConsole"        //只输出到"调试控制台"，但无法输入数据，只能看到输出
             //"console": "externalTerminal"      //输出到外部“终端”
             "justMyCode": true,
             "stopOnEntry": false
